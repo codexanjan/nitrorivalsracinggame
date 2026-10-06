@@ -1,0 +1,29 @@
+name: Bug report
+description: Help improve driving, graphics or game behavior.
+title: "[Bug]: "
+labels: []
+body:
+  - type: textarea
+    id: behavior
+    attributes:
+      label: What happened?
+      description: Describe what you expected and what happened instead.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Include the car, track, race mode and difficulty.
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: Browser and device
+      placeholder: Chrome on Windows, Safari on iPhone, etc.
+  - type: textarea
+    id: media
+    attributes:
+      label: Screenshot or recording
+      description: Optional. Avoid sharing private details.

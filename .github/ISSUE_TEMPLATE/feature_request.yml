@@ -1,0 +1,16 @@
+name: Feature idea
+description: Suggest a better racing experience.
+title: "[Idea]: "
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: Your idea
+      description: Explain the feature and how it would improve gameplay.
+    validations:
+      required: true
+  - type: textarea
+    id: reference
+    attributes:
+      label: Example or sketch
+      description: Optional reference to help explain the idea.

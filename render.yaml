@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: nitro-rivals
+    runtime: static
+    buildCommand: echo Ready
+    staticPublishPath: .

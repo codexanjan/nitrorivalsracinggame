@@ -1,0 +1,10 @@
+.git
+.vercel
+README.md
+render.yaml
+tests
+.github
+CONTRIBUTING.md
+package.json
+docs/ARCHITECTURE.md
+docs/SHARING.md

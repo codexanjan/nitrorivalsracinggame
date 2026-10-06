@@ -1,0 +1,11 @@
+{
+  "name": "nitro-rivals",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "3D arcade browser racing with five AI rivals, three worlds, nitro, jumps and a working cockpit.",
+  "scripts": { "test": "node tests/run.mjs" },
+  "engines": { "node": ">=20" },
+  "repository": { "type": "git", "url": "https://github.com/codexanjan/nitrorivalsracinggame.git" },
+  "homepage": "https://nitro-rivals.vercel.app/"
+}
